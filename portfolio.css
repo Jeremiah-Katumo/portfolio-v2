@@ -54,9 +54,12 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(255, 255, 255, 0.2); /* Translucent white background*/
-    backdrop-filter: blur(10px); /*Glass effect*/
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /*Light border */
+    background: rgba(255, 255, 255, 0.2);
+    /* Translucent white background*/
+    backdrop-filter: blur(10px);
+    /*Glass effect*/
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    /*Light border */
     transition: all 0.3s ease-in-out;
     z-index: 1000;
 }
@@ -96,7 +99,8 @@ a:hover {
 }
 
 .navbar-toggle.active {
-    transform: rotate(90deg); /* Example: Rotate the hamburger icon when clicked */
+    transform: rotate(90deg);
+    /* Example: Rotate the hamburger icon when clicked */
 }
 
 .navbar-content {
@@ -108,26 +112,26 @@ a:hover {
 
 @media (max-width: 1200px) {
     .navbar-content {
-        gap: 300px; 
+        gap: 300px;
     }
 }
 
 @media (max-width: 992px) {
     .navbar-content {
-        gap: 200px; 
+        gap: 200px;
     }
 }
 
 @media (max-width: 768px) {
     .navbar-content {
-        gap: 100px; 
+        gap: 100px;
     }
 }
 
 @media (max-width: 576px) {
     .navbar-content {
-        flex-direction: column; 
-        gap: 20px; 
+        flex-direction: column;
+        gap: 20px;
     }
 }
 
@@ -140,10 +144,10 @@ a:hover {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    background-color: #007bff; 
+    background-color: #007bff;
     color: white;
     border: none;
-    border-radius: 50px; 
+    border-radius: 50px;
     text-align: center;
     transition: background-color 0.3s ease, transform 0.3s ease;
     cursor: pointer;
@@ -151,13 +155,14 @@ a:hover {
 }
 
 .find-out-more-btn:hover {
-    background-color: #0056b3; 
+    background-color: #0056b3;
     transform: translateY(-2px);
 }
 
 .find-out-more-btn:focus {
     outline: none;
-    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);  /* Add a subtle glow when focused */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+    /* Add a subtle glow when focused */
 }
 
 
@@ -259,6 +264,7 @@ a:hover {
     background-image: url("images/hero.jpg");
     /* flex-wrap: wrap; */
 }
+
 /* @media (max-width: 576px) {
     .hero {
         flex-direction: column;
@@ -302,6 +308,7 @@ a:hover {
     display: flex;
     align-items: center;
 }
+
 .education-background {
     height: auto;
     width: 90%;
@@ -309,6 +316,7 @@ a:hover {
     border-radius: 1.9%;
     padding: 30px;
 }
+
 .education-container {
     display: flex;
     flex-direction: row;
@@ -316,6 +324,7 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+
 .education-icon {
     font-size: 40px;
     color: #11999E;
@@ -454,9 +463,12 @@ a:hover {
     padding: 20px;
     border-radius: 10px;
     display: flex;
-    height: 100%; /* Take full height of the parent */
-    width: 100%;  /* Take full width of the parent */
-    background-color: rgba(33, 37, 41, 0.7); /* Increase opacity for better visibility */
+    height: 100%;
+    /* Take full height of the parent */
+    width: 100%;
+    /* Take full width of the parent */
+    background-color: rgba(33, 37, 41, 0.7);
+    /* Increase opacity for better visibility */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -621,6 +633,7 @@ a:hover {
         padding: 8px;
         font-size: 12px;
     }
+
     #github h2 {
         font-size: 1.5rem;
     }
@@ -673,7 +686,8 @@ a:hover {
 }
 
 .footer .social-link:hover {
-    background-color: #007bff; /* Change this to the desired hover color */
+    background-color: #007bff;
+    /* Change this to the desired hover color */
 }
 
 .footer .text-muted {
@@ -813,11 +827,13 @@ a:hover {
 /* Equal height children */
 .info-container,
 .inputs-container {
-    flex: 1 1 300px; /* Flex grow/shrink with min width */
+    flex: 1 1 300px;
+    /* Flex grow/shrink with min width */
     display: flex;
     flex-direction: column;
     gap: 20px;
-    min-width: 0; /* Prevent overflow */
+    min-width: 0;
+    /* Prevent overflow */
     box-sizing: border-box;
 }
 
@@ -839,13 +855,13 @@ a:hover {
     border: 1px solid #e0e0e0;
 }
 
-.info-container > .info-box,
-.info-container > .btn .info-box {
+.info-container>.info-box,
+.info-container>.btn .info-box {
     margin-bottom: 20px;
 }
 
-.info-container > .info-box:last-child,
-.info-container > .btn:last-child .info-box {
+.info-container>.info-box:last-child,
+.info-container>.btn:last-child .info-box {
     margin-bottom: 0;
 }
 
@@ -1040,5 +1056,97 @@ button[type="submit"]:hover {
 
     .submit-button {
         width: 100%;
+    }
+}
+
+
+/* Interest Styles */
+
+.interests-grid {
+    display: flex;
+    gap: 30px;
+    /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+}
+
+.interest-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.interest-card i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+.interest-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+.interest-card p {
+    font-size: 15px;
+    color: #666;
+}
+
+/* ===== Responsive Breakpoints ===== */
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .interest-card {
+        padding: 25px 15px;
+    }
+
+    .interest-card h3 {
+        font-size: 18px;
+    }
+
+    .interest-card i {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .interest-card {
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .interest-card p {
+        font-size: 14px;
     }
 }

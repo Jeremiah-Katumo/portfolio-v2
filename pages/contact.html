@@ -38,22 +38,73 @@
     </header>
 
     <main class="main">
-        
+
         <section id="contact" class="content-section">
             <div class="section-header">
                 <h2 class="section-title">Contact Me</h2>
-                <!-- <p></p> -->
             </div>
             <div class="interests-container">
-                <div class="interest-item">
-                    
+                <div class="info-container" data-aos="fade-up" data-aos-delay={delay}>
+                    <div class="info-box">
+                        <div class="info-icon-box">
+                            <i class="fa fa-map"></i>
+                            <h3>My Office</h3>
+                        </div>
+                        <div>
+                            <p>Baobab Plaza, Kilifi</p>
+                        </div>
+                    </div>
+                
+                    <a class="btn" href="mailto:jeremykurwa02@gmail.com">
+                        <div class="info-box">
+                            <i class="fa fa-envelope"></i>
+                            <h3>Email Us</h3>
+                        </div>
+                    </a>
+                
+                    <div class="info-box">
+                        <div class="info-icon-box">
+                            <i class="fa fa-phone"></i>
+                            <h3>Call Us</h3>
+                        </div>
+                        <div>
+                            <p>+254 745612869</p>
+                        </div>
+                    </div>
+                </div>                
+
+                <div class="inputs-container" data-aos="fade-up" data-aos-delay="300">
+                    <form method="post" class="php-email-form">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" placeholder="Your Name" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" placeholder="Your Email" required />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                        <div class="submit-button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
 
+
     </main>
 
     <script src="../scripts/script.js"></script>
+    <script>
+        document.querySelector()
+    </script>
 </body>
 
 </html>

@@ -790,3 +790,255 @@ a:hover {
         flex-direction: column;
     }
 }
+
+
+
+/* Contact Styles */
+/* General Section Styling */
+#contact {
+    padding: 50px 20px;
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Flex container for info + form */
+.interests-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: stretch;
+}
+
+/* Equal height children */
+.info-container,
+.inputs-container {
+    flex: 1 1 300px; /* Flex grow/shrink with min width */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 0; /* Prevent overflow */
+    box-sizing: border-box;
+}
+
+/* Info Boxes */
+.info-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+}
+
+.info-container > .info-box,
+.info-container > .btn .info-box {
+    margin-bottom: 20px;
+}
+
+.info-container > .info-box:last-child,
+.info-container > .btn:last-child .info-box {
+    margin-bottom: 0;
+}
+
+/* Icon and Heading Row */
+.info-icon-box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-box i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-box h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.info-box p {
+    margin: 5px 0 0;
+    word-break: break-word;
+}
+
+/* Form Styling */
+.php-email-form {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.submit-button {
+    text-align: center;
+    width: 30%;
+    align-self: center;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Message Styling */
+.loading,
+.error-message,
+.sent-message {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sent-message {
+    color: green;
+    font-weight: bold;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+
+/* ========================== */
+/* Responsive Design Section  */
+/* ========================== */
+
+/* Devices below 992px (small laptops/tablets) */
+@media (max-width: 992px) {
+    #contact {
+        max-width: 100%;
+        padding: 40px 15px;
+    }
+
+    .interests-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .php-email-form {
+        padding: 30px;
+    }
+
+    .info-icon-box {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+}
+
+/* Devices below 768px (tablets & large phones) */
+@media (max-width: 768px) {
+    .info-box {
+        padding: 16px;
+        font-size: 14px;
+    }
+
+    .info-box h3 {
+        font-size: 16px;
+    }
+
+    .info-box i {
+        font-size: 20px;
+    }
+
+    .php-email-form {
+        padding: 25px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 15px;
+    }
+}
+
+/* Devices below 576px (phones) */
+@media (max-width: 576px) {
+    #contact {
+        padding: 30px 10px;
+    }
+
+    .info-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-icon-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .php-email-form {
+        padding: 20px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .submit-button {
+        width: 100%;
+    }
+}

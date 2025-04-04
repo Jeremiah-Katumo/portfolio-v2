@@ -603,6 +603,7 @@ a:hover {
     .navbar-toggle {
         display: block;
         /* Show the hamburger icon on small screens */
+        color: #333;
     }
 }
 

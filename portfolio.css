@@ -103,7 +103,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 400px;
+    gap: 300px;
 }
 
 @media (max-width: 1200px) {

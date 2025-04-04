@@ -12,7 +12,7 @@ Click the link below to visit my portfolio website:
 
 ## 📬 Contact
 If you'd like to connect, reach out via:
-- Email: your.email@example.com
+- Email: jeremykurwa02@gmail.com
 - LinkedIn: https://www.linkedin.com/in/jeremiah-kurwa-27556b230/
 
 Thank you for visiting! 🚀

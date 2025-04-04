@@ -1,0 +1,375 @@
+/* ------ Body Styles ------ */
+
+body {
+    color: #40514e;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* --------- Headings Styles ----------- */
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    line-height: 2px;
+    margin-top: 50px auto 0 auto;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #11999E;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #EAF6F6 2px;
+    border-bottom: none;
+    width: 4%;
+    margin: 5px auto;
+}
+
+/* --------- Anchor Tags Styles ---------- */
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: solid;
+}
+
+a:hover {
+    color: #F0FF42;
+}
+
+/* -------- Containers --------- */
+
+/***** Top Container *****/
+.top-container, .bottom-container {
+    background-color: #DDFEE4;
+}
+
+.top-container {
+    padding-top: 80px;
+}
+
+.bot-cloud, .top-cloud {
+    position: absolute;
+}
+
+.bot-cloud {
+    left: 350px;
+    top: 280px;
+}
+
+.top-cloud {
+    right: 350px;
+    top: 50px;
+}
+
+/***** Bottom Container *****/
+.bottom-container {
+    padding: 50px 0 20px;
+}
+
+/***** Middle Container *****/
+.middle-container {
+    margin: 100px 0;
+}
+
+/* -------- Profile Styles --------- */
+
+.intro, .contact-message {
+    margin: auto;
+}
+
+.intro {
+    width: 30%;
+}
+
+.my-profile {
+    height: 200px;
+}
+
+/* -------- Contact Message Styles --------- */
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+/* -------- Interests Styles --------- */
+
+.interest-row {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+.ml, .dashboard, .web-dev {
+    width: 15%;
+    float: left;
+    margin: 0 30px 20px 20px;
+}
+
+.web-dev {
+    float: right;
+    margin: 30px 0 20px 20px;
+}
+
+.dashboard {
+    padding-top: 20px;
+}
+
+
+/* ------- Footer Styles -------- */
+
+
+.copyright {
+    color: #009EFF;
+    font-size: 0.75rem;
+    padding: 30px 0;
+}
+
+/* ------- Buttons Styles --------- */
+
+.btn {
+    background: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+/* -------- Navigation Styles --------- */
+
+.navbar {
+    background-color: #66BFBF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 15px;
+}
+
+.navbar ul li a:hover {
+    color: #F0FF42;
+}
+
+/* -------- Projects Styles -------- */
+
+.projects {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.project-card:hover {
+    transform: translate3d(10px, 10px, 10px);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.project-card {
+    background-color: #EAF6F6;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 50%;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.project-img {
+    height: 100px;
+    width: 125px;
+}
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------- Education Styles -------- */
+
+.education {
+    background-color: #F9F9F9;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 2.5rem;
+    color: #11999E;
+    margin-bottom: 30px;
+}
+
+.education-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.education-card {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.education-card h3 {
+    font-size: 1.5rem;
+    color: #66BFBF;
+    margin-bottom: 10px;
+}
+
+.education-card p {
+    font-size: 1rem;
+    color: #40514e;
+    line-height: 1.6;
+}
+
+.education-icon {
+    font-size: 40px;
+    color: #11999E;
+    margin-bottom: 15px;
+}
+
+/* ------ Media Screens Styles ------ */
+
+@media (max-width: 768px) {
+    h1 { font-size: 3rem; }
+    .education h2 { font-size: 2rem; }
+    .education-container { flex-direction: column; align-items: center; }
+    .education-card { width: 80%; }
+}
+
+@media (max-width: 480px) {
+    .education h2 { font-size: 1.8rem; }
+    .education-card { width: 90%; padding: 15px; }
+    .education-card h3 { font-size: 1.3rem; }
+    .education-card p { font-size: 0.9rem; }
+}
+
+
+/* ----- Skills Section ------ */
+
+.skills-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.skill-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.skill-name i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+.skill-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.skills-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.skill-card {
+    width: 50%;
+}
+
+.skill-card:hover {
+    transform: translate3d(0px, 10px, 10px);
+    transform: trans;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+.html .progress { background: #E44D26; width: 90%; }
+.css .progress { background: #264de4; width: 85%; }
+.javascript .progress { background: #F7DF1E; width: 75%; }
+.python .progress { background: #4B8BBE; width: 80%; }
+.php .progress { background: #777BB4; width: 70%; }
+.r .progress { background: #276DC3; width: 75%; } /* Added R */

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jeremiah Katumo Kurwa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="index-page">
+
+    <div class="header-toggle" onclick="toggleMenu()">☰</div>
+
+    <header id="header" class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="../index.html"><i class="fa-solid fa-arrow-left"></i></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#profile">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section id="hero" class="hero">
+            <div class="container">
+                <h2>Jeremiah Katumo</h2>
+                <p>I'm <span class="typed">Designer</span></p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="content-section" id="services">
+            <div class="container">
+                <h3>Skills</h3>
+                <div class="row">
+                    <div class="col">
+                        <div class="service-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <h4>Responsive</h4>
+                        <p>Looks great on any screen size!</p>
+                    </div>
+                    <div class="col">
+                        <div class="service-icon"><i class="fa-solid fa-pencil"></i></div>
+                        <h4>Redesigned</h4>
+                        <p>Freshly designed without Bootstrap.</p>
+                    </div>
+                    <div class="col">
+                        <div class="service-icon"><i class="fa-solid fa-heart"></i></div>
+                        <h4>Favorited</h4>
+                        <p>Millions of users love it!</p>
+                    </div>
+                    <div class="col">
+                        <div class="service-icon"><i class="fa-solid fa-question"></i></div>
+                        <h4>Question</h4>
+                        <p>I mustache you a question...</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="skills-section">
+            <h2 class="skills-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fas fa-code"></i>
+                    <p class="skill-name">Web Development</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p class="skill-name">App Development</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-paint-brush"></i>
+                    <p class="skill-name">UI/UX Design</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-server"></i>
+                    <p class="skill-name">Backend Development</p>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-pen-nib"></i>
+                    <p class="skill-name">Content Writing</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById("header").classList.toggle("header-show");
+        }
+    </script>
+
+</body>
+</html>

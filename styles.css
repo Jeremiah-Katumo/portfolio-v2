@@ -1,0 +1,141 @@
+html {
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-size: 100% 100%;
+}
+
+/* head { */
+    /* background-color: #11cdd4; */
+    /* padding-top: 0%; */
+/* } */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    background-size: 100% 100%;
+}
+
+nav {
+    /* background: #11cdd4; */
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    /* padding-top: 0%; */
+    /* margin: 0%; */
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    transform: scale(1.0);
+    text-decoration: none;
+}
+
+strong {
+    color: black;
+}
+
+.menu {
+    height: 45px;
+    width: 45px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.site {
+    border-style: groove;
+    border: 8px;
+    background-color: #11cdd4;
+    color: black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    border-radius: 8px;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.site:hover, .site:focus {
+    transform: scale(1.2);
+    border-color: goldenrod;
+}
+
+.sites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-link {
+    text-decoration-color: black;
+}
+
+.images {
+    height: 40px;
+    width: 40px;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: gray;
+    color: goldenrod;
+    font-size: 0.75rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
